@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  langton-ant:
+    build: .
+    ports:
+      - "9005:9005"
+    restart: unless-stopped
